@@ -1,12 +1,12 @@
 import React from 'react';
 import { Hello } from './Hello.jsx';
-import { Info } from './Info.jsx';
 import { LoginPage } from './LoginPage.jsx';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { SignupPage } from './SignupPage.jsx';
 
 export const App = () => (
   <div>
     <h1>Welcome to Meteor!</h1>
     <LoginPage/>
+    <SignupPage/>
   </div>
 );
